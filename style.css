@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: hsl(0deg, 0%, 60%);
+}
+
+header .max-width-wrapper {
+  background-color: hsl(0deg, 0%, 100%);
+  box-shadow: 0px 10px 0px 0px hsl(0deg, 0%, 30%);
+
+  padding: 48px;
+  margin-bottom: 50px;
+}
+
+.intro-chunk {
+  padding-block-start: 40px;
+}
+
+.intro-chunk p {
+  font-size: 1.5rem;
+}
+
+.intro-chunk h1 {
+  font-size: 2rem;
+}
+
+.intro-chunk strong {
+  color: hsl(160deg, 100%, 30%);
+}
+
+main .max-width-wrapper {
+  background: hsl(0deg, 0%, 100%);
+  padding-block-start: 1px;
+  margin-bottom: 50px;
+  box-shadow: 0px 10px 0px 0px hsl(0deg, 0%, 30%);
+}
+
+.card h2 {
+  margin-top: 8px;
+  max-width: 90%;
+  background: hsl(45deg, 100%, 50%);
+  padding-block: 16px;
+  padding-inline-start: 40px;
+  font-size: 1.5rem;
+  box-shadow: 0px 10px 0px 0px hsl(45deg, 100%, 40%);
+}
+
+.card p {
+  padding: 8px 48px 8px 48px;
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  header .max-width-wrapper {
+    padding-right: 40%;
+  }
+
+  main .max-width-wrapper {
+    padding-right: 18px;
+  }
+  .card p {
+    font-size: 1.3rem;
+  }
+
+  .card h2 {
+    max-width: 60%;
+  }
+}
+
+@media(min-width: 1200px){
+
+  header .max-width-wrapper {
+    padding-right: 50%;
+    padding-left: 370px;;
+  }
+   main .max-width-wrapper {
+    width: 60%;
+    margin: auto;
+  }
+
+   .card h2 {
+     margin-left: -16px;;
+  }
+
+}
+/* Add styles here! */
